@@ -77,7 +77,6 @@ tf.random.set_seed(42)
 model = tf.keras.Sequential([
     tf.keras.layers.Dense(1, input_shape=[1]), 
     tf.keras.layers.Dense(1),
-    tf.keras.layers.Dense(1)
     ])
 
 # Compile the model
